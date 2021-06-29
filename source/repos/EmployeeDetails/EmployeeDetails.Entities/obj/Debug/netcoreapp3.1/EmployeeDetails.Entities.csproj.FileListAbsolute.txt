@@ -1,0 +1,13 @@
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\bin\Debug\netcoreapp3.1\EmployeeDetails.Entities.exe
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\bin\Debug\netcoreapp3.1\EmployeeDetails.Entities.deps.json
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\bin\Debug\netcoreapp3.1\EmployeeDetails.Entities.runtimeconfig.json
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\bin\Debug\netcoreapp3.1\EmployeeDetails.Entities.runtimeconfig.dev.json
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\bin\Debug\netcoreapp3.1\EmployeeDetails.Entities.dll
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\bin\Debug\netcoreapp3.1\EmployeeDetails.Entities.pdb
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\obj\Debug\netcoreapp3.1\EmployeeDetails.Entities.csproj.AssemblyReference.cache
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\obj\Debug\netcoreapp3.1\EmployeeDetails.Entities.AssemblyInfoInputs.cache
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\obj\Debug\netcoreapp3.1\EmployeeDetails.Entities.AssemblyInfo.cs
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\obj\Debug\netcoreapp3.1\EmployeeDetails.Entities.csproj.CoreCompileInputs.cache
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\obj\Debug\netcoreapp3.1\EmployeeDetails.Entities.dll
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\obj\Debug\netcoreapp3.1\EmployeeDetails.Entities.pdb
+C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.Entities\obj\Debug\netcoreapp3.1\EmployeeDetails.Entities.genruntimeconfig.cache

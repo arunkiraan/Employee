@@ -1,0 +1,404 @@
+2021-06-26 19:02:38.462 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 19:02:38.821 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 19:02:38.892 +05:30 [INF] Hosting environment: Development
+2021-06-26 19:02:38.895 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 19:02:39.178 +05:30 [INF] Request finished in 365.3529ms 200 text/html;charset=utf-8
+2021-06-26 19:02:39.274 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/swagger-ui-bundle.js  
+2021-06-26 19:02:39.274 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/swagger-ui-standalone-preset.js  
+2021-06-26 19:02:39.274 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/swagger-ui.css  
+2021-06-26 19:02:39.499 +05:30 [INF] The file /swagger-ui.css was not modified
+2021-06-26 19:02:39.499 +05:30 [INF] The file /swagger-ui-bundle.js was not modified
+2021-06-26 19:02:39.499 +05:30 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-06-26 19:02:39.512 +05:30 [INF] Request finished in 237.4278ms 304 text/css
+2021-06-26 19:02:39.512 +05:30 [INF] Request finished in 237.461ms 304 application/javascript
+2021-06-26 19:02:39.512 +05:30 [INF] Request finished in 237.4762ms 304 application/javascript
+2021-06-26 19:02:39.938 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 19:02:40.087 +05:30 [INF] Request finished in 150.0544ms 200 application/json;charset=utf-8
+2021-06-26 19:03:01.923 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee  
+2021-06-26 19:03:01.935 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Get (EmployeeDetails)'
+2021-06-26 19:03:01.986 +05:30 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-26 19:03:15.092 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 19:04:43.080 +05:30 [INF] Executed DbCommand (268ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId]
+FROM [Employee] AS [e]
+2021-06-26 19:05:50.714 +05:30 [INF] Executed DbCommand (209ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId]
+FROM [Employee] AS [e]
+2021-06-26 19:06:17.730 +05:30 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId]
+FROM [Employee] AS [e]
+2021-06-26 19:29:14.379 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 19:29:14.433 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 19:29:14.493 +05:30 [INF] Hosting environment: Development
+2021-06-26 19:29:14.494 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 19:29:14.587 +05:30 [INF] Request finished in 158.2562ms 200 text/html;charset=utf-8
+2021-06-26 19:29:14.926 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 19:29:15.004 +05:30 [INF] Request finished in 78.5604ms 200 application/json;charset=utf-8
+2021-06-26 19:29:23.184 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee  
+2021-06-26 19:29:23.195 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Get (EmployeeDetails)'
+2021-06-26 19:29:23.227 +05:30 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-26 19:29:37.148 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 20:23:00.939 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 20:23:00.985 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 20:23:01.036 +05:30 [INF] Hosting environment: Development
+2021-06-26 20:23:01.037 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 20:23:01.135 +05:30 [INF] Request finished in 155.5884ms 200 text/html;charset=utf-8
+2021-06-26 20:23:01.349 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 20:23:01.418 +05:30 [INF] Request finished in 69.4263ms 200 application/json;charset=utf-8
+2021-06-26 20:23:32.897 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee  
+2021-06-26 20:23:32.908 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Get (EmployeeDetails)'
+2021-06-26 20:23:32.937 +05:30 [INF] Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-26 20:23:41.387 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 20:23:44.162 +05:30 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-26 20:23:44.374 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeDetails.Entities.Entities.EmployeeDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-06-26 20:23:44.432 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Get (EmployeeDetails) in 11487.3816ms
+2021-06-26 20:23:44.434 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Get (EmployeeDetails)'
+2021-06-26 20:23:44.461 +05:30 [INF] Request finished in 11567.7597ms 200 application/json; charset=utf-8
+2021-06-26 20:57:39.068 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 20:57:39.130 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 20:57:39.175 +05:30 [INF] Hosting environment: Development
+2021-06-26 20:57:39.179 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 20:57:39.294 +05:30 [INF] Request finished in 167.8282ms 200 text/html;charset=utf-8
+2021-06-26 20:57:39.584 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 20:57:39.657 +05:30 [INF] Request finished in 72.7041ms 200 application/json;charset=utf-8
+2021-06-26 20:57:47.921 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Department  
+2021-06-26 20:57:47.938 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 20:57:47.988 +05:30 [INF] Route matched with {action = "Get", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 20:57:48.826 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 20:57:50.852 +05:30 [INF] Executed DbCommand (327ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+2021-06-26 20:57:51.020 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeDetails.Entities.Entities.Department, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-06-26 20:57:51.035 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails) in 3039.6437ms
+2021-06-26 20:57:51.038 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 20:57:51.044 +05:30 [INF] Request finished in 3123.8977ms 200 application/json; charset=utf-8
+2021-06-26 21:06:33.408 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 21:06:33.467 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 21:06:33.510 +05:30 [INF] Hosting environment: Development
+2021-06-26 21:06:33.512 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 21:06:33.609 +05:30 [INF] Request finished in 146.106ms 200 text/html;charset=utf-8
+2021-06-26 21:06:33.825 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 21:06:33.912 +05:30 [INF] Request finished in 87.1747ms 200 application/json;charset=utf-8
+2021-06-26 21:06:46.034 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Department  
+2021-06-26 21:06:46.046 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 21:06:46.077 +05:30 [INF] Route matched with {action = "Get", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 21:08:40.275 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 21:08:40.329 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 21:08:40.376 +05:30 [INF] Hosting environment: Development
+2021-06-26 21:08:40.380 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 21:08:40.479 +05:30 [INF] Request finished in 154.2913ms 200 text/html;charset=utf-8
+2021-06-26 21:08:40.695 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 21:08:40.777 +05:30 [INF] Request finished in 82.4318ms 200 application/json;charset=utf-8
+2021-06-26 21:08:52.524 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Department  
+2021-06-26 21:08:52.537 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 21:08:52.564 +05:30 [INF] Route matched with {action = "Get", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 21:08:53.407 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 21:08:55.271 +05:30 [INF] Executed DbCommand (226ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+2021-06-26 21:08:55.342 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeDetails.Entities.Entities.DepartmentDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-06-26 21:08:55.355 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails) in 2783.2007ms
+2021-06-26 21:08:55.357 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 21:08:55.363 +05:30 [INF] Request finished in 2839.7596ms 200 application/json; charset=utf-8
+2021-06-26 22:09:02.396 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:09:02.459 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:09:02.510 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:09:02.513 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:09:02.615 +05:30 [INF] Request finished in 160.4486ms 200 text/html;charset=utf-8
+2021-06-26 22:09:02.828 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:09:02.898 +05:30 [INF] Request finished in 70.4895ms 200 application/json;charset=utf-8
+2021-06-26 22:09:26.161 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 4
+2021-06-26 22:09:26.179 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:09:26.244 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:09:26.619 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-06-26 22:09:26.632 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 381.2446ms
+2021-06-26 22:09:26.634 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:09:26.637 +05:30 [INF] Request finished in 481.0849ms 400 application/problem+json; charset=utf-8
+2021-06-26 22:10:08.578 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 4
+2021-06-26 22:10:08.582 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:10:08.585 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:10:08.653 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-06-26 22:10:08.655 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 68.2307ms
+2021-06-26 22:10:08.658 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:10:08.660 +05:30 [INF] Request finished in 86.9888ms 400 application/problem+json; charset=utf-8
+2021-06-26 22:10:56.928 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 6
+2021-06-26 22:10:56.936 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:10:56.939 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:11:39.894 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:12:12.038 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:12:12.040 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 75098.8623ms
+2021-06-26 22:12:12.042 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:12:12.055 +05:30 [INF] Request finished in 75127.1051ms 200 
+2021-06-26 22:12:12.093 +05:30 [ERR] An error occurred using the connection to database 'Employee' on server 'Wbgmsspmiga002'.
+2021-06-26 22:12:44.086 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Department  
+2021-06-26 22:12:44.093 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 22:12:44.099 +05:30 [INF] Route matched with {action = "Get", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:12:44.134 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:12:44.622 +05:30 [INF] Executed DbCommand (248ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+2021-06-26 22:12:44.652 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeDetails.Entities.Entities.DepartmentDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-06-26 22:12:44.656 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails) in 555.6692ms
+2021-06-26 22:12:44.659 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 22:12:44.661 +05:30 [INF] Request finished in 575.3115ms 200 application/json; charset=utf-8
+2021-06-26 22:15:57.047 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 6
+2021-06-26 22:15:57.050 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:15:57.053 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:16:03.819 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:17:38.809 +05:30 [ERR] Failed executing DbCommand (94,633ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Department] ([DepartmentName])
+VALUES (@p0);
+SELECT [DepartmentId]
+FROM [Department]
+WHERE @@ROWCOUNT = 1 AND [DepartmentId] = scope_identity();
+2021-06-26 22:17:39.243 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'EmployeeDetails.EF.EmployeeDbContext'.
+System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-06-26 22:18:31.198 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:18:31.258 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:18:31.326 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:18:31.328 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:18:31.419 +05:30 [INF] Request finished in 164.7966ms 200 text/html;charset=utf-8
+2021-06-26 22:18:31.618 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:18:31.696 +05:30 [INF] Request finished in 78.218ms 200 application/json;charset=utf-8
+2021-06-26 22:21:24.872 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:21:24.891 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:21:24.931 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:21:39.628 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:22:03.843 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:22:03.851 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 38913.3701ms
+2021-06-26 22:22:03.876 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:22:03.897 +05:30 [INF] Request finished in 39030.9198ms 200 
+2021-06-26 22:22:03.911 +05:30 [ERR] An error occurred using the connection to database 'Employee' on server 'Wbgmsspmiga002'.
+2021-06-26 22:22:11.450 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:22:11.455 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:22:11.457 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:22:24.134 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:26:44.642 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:26:44.714 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:26:44.748 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:26:44.757 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:26:44.868 +05:30 [INF] Request finished in 166.9322ms 200 text/html;charset=utf-8
+2021-06-26 22:26:45.101 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:26:45.207 +05:30 [INF] Request finished in 107.3364ms 200 application/json;charset=utf-8
+2021-06-26 22:27:19.381 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:27:19.396 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:27:19.436 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:27:39.341 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:27:42.535 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:27:42.542 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 23098.7937ms
+2021-06-26 22:27:42.544 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:27:42.553 +05:30 [INF] Request finished in 23174.1856ms 200 
+2021-06-26 22:27:42.575 +05:30 [ERR] An error occurred using the connection to database 'Employee' on server 'Wbgmsspmiga002'.
+2021-06-26 22:28:31.220 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:28:31.261 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:28:31.306 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:28:31.308 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:28:31.403 +05:30 [INF] Request finished in 146.1788ms 200 text/html;charset=utf-8
+2021-06-26 22:28:31.602 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:28:31.677 +05:30 [INF] Request finished in 74.2972ms 200 application/json;charset=utf-8
+2021-06-26 22:28:43.443 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:28:43.456 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:28:43.492 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:28:57.110 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:29:00.513 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:29:00.521 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 17021.7852ms
+2021-06-26 22:29:00.523 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:29:00.533 +05:30 [INF] Request finished in 17091.0318ms 200 
+2021-06-26 22:29:00.554 +05:30 [ERR] An error occurred using the connection to database 'Employee' on server 'Wbgmsspmiga002'.
+2021-06-26 22:29:55.061 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:29:55.116 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:29:55.168 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:29:55.174 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:29:55.272 +05:30 [INF] Request finished in 160.2547ms 200 text/html;charset=utf-8
+2021-06-26 22:29:55.485 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:29:55.575 +05:30 [INF] Request finished in 90.4248ms 200 application/json;charset=utf-8
+2021-06-26 22:30:39.719 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:30:39.738 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:30:39.774 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:32:27.163 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:32:29.310 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:32:29.317 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 109535.0952ms
+2021-06-26 22:32:29.319 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:32:29.328 +05:30 [INF] Request finished in 109612.9667ms 200 
+2021-06-26 22:32:29.352 +05:30 [ERR] An error occurred using the connection to database 'Employee' on server 'Wbgmsspmiga002'.
+2021-06-26 22:37:04.685 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:37:04.724 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:37:04.770 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:37:04.772 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:37:04.884 +05:30 [INF] Request finished in 162.7428ms 200 text/html;charset=utf-8
+2021-06-26 22:37:05.098 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:37:05.174 +05:30 [INF] Request finished in 76.5648ms 200 application/json;charset=utf-8
+2021-06-26 22:37:36.979 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:37:36.997 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:37:37.036 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:38:01.302 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:38:05.424 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:38:05.449 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 28388.9414ms
+2021-06-26 22:38:05.451 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:38:05.467 +05:30 [INF] Request finished in 28492.4067ms 200 
+2021-06-26 22:38:05.507 +05:30 [ERR] An error occurred using the connection to database 'Employee' on server 'Wbgmsspmiga002'.
+2021-06-26 22:42:01.267 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:42:01.321 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:42:01.366 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:42:01.367 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:42:01.465 +05:30 [INF] Request finished in 148.0227ms 200 text/html;charset=utf-8
+2021-06-26 22:42:01.675 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:42:01.756 +05:30 [INF] Request finished in 80.8417ms 200 application/json;charset=utf-8
+2021-06-26 22:42:22.192 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:42:22.209 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:42:22.254 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:42:36.844 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:42:37.373 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:42:37.381 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 15118.642ms
+2021-06-26 22:42:37.383 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:42:37.391 +05:30 [INF] Request finished in 15204.2911ms 200 
+2021-06-26 22:42:37.413 +05:30 [ERR] An error occurred using the connection to database 'Employee' on server 'Wbgmsspmiga002'.
+2021-06-26 22:45:42.186 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:45:42.249 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:45:42.298 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:45:42.301 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:45:42.394 +05:30 [INF] Request finished in 149.432ms 200 text/html;charset=utf-8
+2021-06-26 22:45:42.614 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:45:42.703 +05:30 [INF] Request finished in 88.7781ms 200 application/json;charset=utf-8
+2021-06-26 22:45:56.182 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:45:56.194 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:45:56.229 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:46:10.559 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:46:14.301 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:46:14.307 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 18070.999ms
+2021-06-26 22:46:14.309 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:46:14.319 +05:30 [INF] Request finished in 18139.3563ms 200 
+2021-06-26 22:46:14.333 +05:30 [ERR] An error occurred using the connection to database 'Employee' on server 'Wbgmsspmiga002'.
+2021-06-26 22:52:07.929 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 22:52:07.975 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 22:52:08.018 +05:30 [INF] Hosting environment: Development
+2021-06-26 22:52:08.021 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 22:52:08.120 +05:30 [INF] Request finished in 149.2858ms 200 text/html;charset=utf-8
+2021-06-26 22:52:08.326 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 22:52:08.424 +05:30 [INF] Request finished in 98.0382ms 200 application/json;charset=utf-8
+2021-06-26 22:52:24.632 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:52:24.654 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:52:24.700 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:52:31.329 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:52:40.872 +05:30 [INF] Executed DbCommand (254ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Department] ([DepartmentName])
+VALUES (@p0);
+SELECT [DepartmentId]
+FROM [Department]
+WHERE @@ROWCOUNT = 1 AND [DepartmentId] = scope_identity();
+2021-06-26 22:57:37.943 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:57:37.949 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 313240.4074ms
+2021-06-26 22:57:37.952 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:57:37.959 +05:30 [INF] Request finished in 313333.6986ms 200 
+2021-06-26 22:57:56.212 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Department  
+2021-06-26 22:57:56.216 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 22:57:56.221 +05:30 [INF] Route matched with {action = "Get", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:57:56.253 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:57:56.696 +05:30 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+2021-06-26 22:57:56.759 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeDetails.Entities.Entities.DepartmentDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-06-26 22:57:56.766 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails) in 544.012ms
+2021-06-26 22:57:56.769 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Get (EmployeeDetails)'
+2021-06-26 22:57:56.772 +05:30 [INF] Request finished in 560.7164ms 200 application/json; charset=utf-8
+2021-06-26 22:58:06.753 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 22:58:06.760 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:58:06.762 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 22:58:11.884 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 22:58:14.877 +05:30 [INF] Executed DbCommand (207ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Department] ([DepartmentName])
+VALUES (@p0);
+SELECT [DepartmentId]
+FROM [Department]
+WHERE @@ROWCOUNT = 1 AND [DepartmentId] = scope_identity();
+2021-06-26 22:58:26.537 +05:30 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2021-06-26 22:58:26.541 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 19776.2511ms
+2021-06-26 22:58:26.543 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 22:58:26.545 +05:30 [INF] Request finished in 19791.4611ms 200 
+2021-06-26 23:00:53.151 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 23:00:53.196 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 23:00:53.244 +05:30 [INF] Hosting environment: Development
+2021-06-26 23:00:53.246 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 23:00:53.338 +05:30 [INF] Request finished in 145.5234ms 200 text/html;charset=utf-8
+2021-06-26 23:00:53.546 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 23:00:53.631 +05:30 [INF] Request finished in 85.9955ms 200 application/json;charset=utf-8
+2021-06-26 23:01:11.637 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 2
+2021-06-26 23:01:11.650 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 23:01:11.695 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 23:01:21.868 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-26 23:01:21.877 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 10171.8802ms
+2021-06-26 23:01:21.879 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 23:01:21.882 +05:30 [INF] Request finished in 10248.8591ms 500 text/plain; charset=utf-8
+2021-06-26 23:16:25.477 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 23:16:25.521 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 23:16:25.565 +05:30 [INF] Hosting environment: Development
+2021-06-26 23:16:25.568 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 23:16:25.663 +05:30 [INF] Request finished in 145.2647ms 200 text/html;charset=utf-8
+2021-06-26 23:16:25.883 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 23:16:25.971 +05:30 [INF] Request finished in 88.1623ms 200 application/json;charset=utf-8
+2021-06-26 23:16:33.094 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 23:16:33.109 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 23:16:33.157 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 23:16:41.350 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 23:16:44.294 +05:30 [INF] Executed DbCommand (258ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-26 23:17:29.625 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-26 23:17:29.670 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-26 23:17:29.725 +05:30 [INF] Hosting environment: Development
+2021-06-26 23:17:29.731 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-26 23:17:29.848 +05:30 [INF] Request finished in 183.3133ms 200 text/html;charset=utf-8
+2021-06-26 23:17:30.090 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-26 23:17:30.191 +05:30 [INF] Request finished in 100.9256ms 200 application/json;charset=utf-8
+2021-06-26 23:18:24.486 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 8
+2021-06-26 23:18:24.501 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 23:18:24.547 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 23:18:29.207 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 23:18:31.206 +05:30 [INF] Executed DbCommand (244ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-26 23:18:31.300 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-26 23:18:31.313 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 6755.7838ms
+2021-06-26 23:18:31.315 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 23:18:31.322 +05:30 [INF] Request finished in 6841.3919ms 500 text/plain; charset=utf-8
+2021-06-26 23:18:40.949 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 9
+2021-06-26 23:18:40.954 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 23:18:40.957 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-26 23:18:46.427 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-26 23:18:46.650 +05:30 [INF] Executed DbCommand (214ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-26 23:18:47.231 +05:30 [INF] Executed DbCommand (225ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Department] ([DepartmentName])
+VALUES (@p0);
+SELECT [DepartmentId]
+FROM [Department]
+WHERE @@ROWCOUNT = 1 AND [DepartmentId] = scope_identity();
+2021-06-26 23:18:47.508 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-26 23:18:47.513 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails) in 6552.6555ms
+2021-06-26 23:18:47.517 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 23:18:47.521 +05:30 [INF] Request finished in 6571.728ms 200 text/plain; charset=utf-8
+2021-06-26 23:18:58.858 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department application/json 3
+2021-06-26 23:18:58.862 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.Post (EmployeeDetails)'
+2021-06-26 23:18:58.866 +05:30 [INF] Route matched with {action = "Post", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).

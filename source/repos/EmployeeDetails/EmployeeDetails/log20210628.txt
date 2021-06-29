@@ -1,0 +1,711 @@
+2021-06-28 00:00:03.474 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 00:00:03.560 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 00:00:03.592 +05:30 [INF] Hosting environment: Development
+2021-06-28 00:00:03.596 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 00:00:03.692 +05:30 [INF] Request finished in 143.1115ms 200 text/html;charset=utf-8
+2021-06-28 00:00:04.006 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 00:00:04.147 +05:30 [INF] Request finished in 141.6037ms 200 application/json;charset=utf-8
+2021-06-28 00:01:07.561 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee/1  
+2021-06-28 00:01:07.582 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails)'
+2021-06-28 00:01:07.622 +05:30 [INF] Route matched with {action = "GetEmployeeDetailsById", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeDetailsById(Int64) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 00:01:08.527 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 00:01:11.102 +05:30 [INF] Executed DbCommand (246ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 00:01:11.168 +05:30 [INF] Executing ObjectResult, writing value of type 'EmployeeDetails.Entities.DTO.FilterEmployeeByIdDTO'.
+2021-06-28 00:01:11.306 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails) in 3676.3256ms
+2021-06-28 00:01:11.307 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails)'
+2021-06-28 00:01:11.312 +05:30 [INF] Request finished in 3750.9324ms 200 application/json; charset=utf-8
+2021-06-28 00:01:26.682 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee/2  
+2021-06-28 00:01:26.692 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails)'
+2021-06-28 00:01:26.694 +05:30 [INF] Route matched with {action = "GetEmployeeDetailsById", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeDetailsById(Int64) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 00:01:26.727 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 00:01:26.941 +05:30 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 00:01:26.945 +05:30 [INF] Executing ObjectResult, writing value of type 'EmployeeDetails.Entities.DTO.FilterEmployeeByIdDTO'.
+2021-06-28 00:01:26.947 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails) in 250.6337ms
+2021-06-28 00:01:26.952 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails)'
+2021-06-28 00:01:26.953 +05:30 [INF] Request finished in 271.2766ms 200 application/json; charset=utf-8
+2021-06-28 00:01:35.961 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee/7  
+2021-06-28 00:01:35.965 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails)'
+2021-06-28 00:01:35.968 +05:30 [INF] Route matched with {action = "GetEmployeeDetailsById", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeDetailsById(Int64) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 00:01:35.982 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 00:01:36.196 +05:30 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 00:01:36.200 +05:30 [INF] Executing ObjectResult, writing value of type 'EmployeeDetails.Entities.DTO.FilterEmployeeByIdDTO'.
+2021-06-28 00:01:36.203 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails) in 233.6359ms
+2021-06-28 00:01:36.205 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails)'
+2021-06-28 00:01:36.207 +05:30 [INF] Request finished in 246.1102ms 200 application/json; charset=utf-8
+2021-06-28 00:03:06.372 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee/50  
+2021-06-28 00:03:06.375 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails)'
+2021-06-28 00:03:06.379 +05:30 [INF] Route matched with {action = "GetEmployeeDetailsById", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeDetailsById(Int64) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 00:03:06.391 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 00:03:06.602 +05:30 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 00:03:06.615 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 00:03:06.621 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails) in 240.5388ms
+2021-06-28 00:03:06.629 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeDetailsById (EmployeeDetails)'
+2021-06-28 00:03:06.635 +05:30 [INF] Request finished in 265.2067ms 500 text/plain; charset=utf-8
+2021-06-28 12:08:47.762 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 12:08:48.138 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 12:08:48.241 +05:30 [INF] Hosting environment: Development
+2021-06-28 12:08:48.243 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 12:08:48.465 +05:30 [INF] Request finished in 322.8498ms 200 text/html;charset=utf-8
+2021-06-28 12:08:49.207 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 12:08:49.492 +05:30 [INF] Request finished in 284.7842ms 200 application/json;charset=utf-8
+2021-06-28 12:10:45.642 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 132
+2021-06-28 12:10:45.688 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 12:10:45.934 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 12:10:49.474 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 12:10:55.187 +05:30 [INF] Executed DbCommand (277ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 12:10:55.285 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 12:10:55.299 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 9357.6572ms
+2021-06-28 12:10:55.301 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 12:10:55.313 +05:30 [INF] Request finished in 9673.1056ms 500 text/plain; charset=utf-8
+2021-06-28 12:13:19.763 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 132
+2021-06-28 12:13:19.768 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 12:13:19.771 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 12:13:19.817 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 12:13:20.054 +05:30 [INF] Executed DbCommand (209ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 12:13:20.419 +05:30 [INF] Executed DbCommand (239ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 12:13:20.636 +05:30 [INF] Executed DbCommand (205ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 12:13:21.402 +05:30 [INF] Executed DbCommand (234ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employee] ([DepartmentId], [EmailId], [FirstName], [LastName], [ManagerId])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [EmployeeId]
+FROM [Employee]
+WHERE @@ROWCOUNT = 1 AND [EmployeeId] = scope_identity();
+2021-06-28 12:13:22.393 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 12:13:22.400 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 2627.7757ms
+2021-06-28 12:13:22.405 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 12:13:22.409 +05:30 [INF] Request finished in 2646.1835ms 200 text/plain; charset=utf-8
+2021-06-28 12:24:37.970 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 151
+2021-06-28 12:24:37.973 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 12:24:37.987 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 12:24:38.013 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 12:24:39.051 +05:30 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 12:24:39.056 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 12:24:39.058 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 1069.6892ms
+2021-06-28 12:24:39.063 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 12:24:39.067 +05:30 [INF] Request finished in 1096.7664ms 500 text/plain; charset=utf-8
+2021-06-28 12:25:03.704 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 151
+2021-06-28 12:25:03.709 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 12:25:03.713 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 12:25:03.722 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 12:25:03.931 +05:30 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 12:25:03.939 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 12:25:03.945 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 229.2928ms
+2021-06-28 12:25:03.949 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 12:25:03.954 +05:30 [INF] Request finished in 250.1979ms 500 text/plain; charset=utf-8
+2021-06-28 12:25:42.137 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 151
+2021-06-28 12:25:42.140 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 12:25:42.142 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 12:25:42.154 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 12:25:42.378 +05:30 [INF] Executed DbCommand (221ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 12:25:42.733 +05:30 [INF] Executed DbCommand (305ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 12:25:42.966 +05:30 [INF] Executed DbCommand (230ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 12:25:43.541 +05:30 [INF] Executed DbCommand (294ms) [Parameters=[@p5='?' (DbType = Int64), @p0='?' (DbType = Int64), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Employee] SET [DepartmentId] = @p0, [EmailId] = @p1, [FirstName] = @p2, [LastName] = @p3, [ManagerId] = @p4
+WHERE [EmployeeId] = @p5;
+SELECT @@ROWCOUNT;
+2021-06-28 12:25:43.845 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 12:25:43.851 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 1704.0974ms
+2021-06-28 12:25:43.862 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 12:25:43.869 +05:30 [INF] Request finished in 1734.5608ms 200 text/plain; charset=utf-8
+2021-06-28 13:44:57.317 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 13:44:57.558 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 13:44:57.701 +05:30 [INF] Hosting environment: Development
+2021-06-28 13:44:57.703 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 13:44:58.122 +05:30 [INF] Request finished in 566.6435ms 200 text/html;charset=utf-8
+2021-06-28 13:44:59.013 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 13:45:00.385 +05:30 [INF] Request finished in 1372.8097ms 200 application/json;charset=utf-8
+2021-06-28 13:45:30.805 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 114
+2021-06-28 13:45:30.860 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 13:45:30.998 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:45:34.663 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:45:38.338 +05:30 [INF] Executed DbCommand (249ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:45:38.419 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:45:38.443 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 7438.4053ms
+2021-06-28 13:45:38.446 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 13:45:38.451 +05:30 [INF] Request finished in 7652.7877ms 500 text/plain; charset=utf-8
+2021-06-28 13:45:59.655 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 132
+2021-06-28 13:45:59.694 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 13:45:59.701 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:45:59.773 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:46:00.036 +05:30 [INF] Executed DbCommand (239ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:46:00.041 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:46:00.044 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 340.1313ms
+2021-06-28 13:46:00.047 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 13:46:00.051 +05:30 [INF] Request finished in 395.3965ms 500 text/plain; charset=utf-8
+2021-06-28 13:46:17.971 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 130
+2021-06-28 13:46:17.979 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 13:46:17.984 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:46:17.999 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:46:18.225 +05:30 [INF] Executed DbCommand (211ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:46:18.233 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:46:18.238 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 250.7415ms
+2021-06-28 13:46:18.243 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 13:46:18.245 +05:30 [INF] Request finished in 274.0346ms 500 text/plain; charset=utf-8
+2021-06-28 13:46:32.359 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 130
+2021-06-28 13:46:32.364 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 13:46:32.367 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:46:32.372 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:46:32.585 +05:30 [INF] Executed DbCommand (210ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:46:33.046 +05:30 [INF] Executed DbCommand (273ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 13:46:33.279 +05:30 [INF] Executed DbCommand (205ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 13:46:34.105 +05:30 [INF] Executed DbCommand (251ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employee] ([DepartmentId], [EmailId], [FirstName], [LastName], [ManagerId])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [EmployeeId]
+FROM [Employee]
+WHERE @@ROWCOUNT = 1 AND [EmployeeId] = scope_identity();
+2021-06-28 13:46:34.822 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:46:34.826 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 2456.664ms
+2021-06-28 13:46:34.828 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 13:46:34.831 +05:30 [INF] Request finished in 2472.3432ms 200 text/plain; charset=utf-8
+2021-06-28 13:46:56.971 +05:30 [INF] Request starting HTTP/2.0 DELETE https://localhost:44368/api/Employee/111  
+2021-06-28 13:46:56.975 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Delete (EmployeeDetails)'
+2021-06-28 13:46:57.000 +05:30 [INF] Route matched with {action = "Delete", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(Int64) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:46:57.012 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:46:57.220 +05:30 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:46:57.227 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:46:57.230 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Delete (EmployeeDetails) in 226.4093ms
+2021-06-28 13:46:57.233 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Delete (EmployeeDetails)'
+2021-06-28 13:46:57.236 +05:30 [INF] Request finished in 265.175ms 500 text/plain; charset=utf-8
+2021-06-28 13:47:01.410 +05:30 [INF] Request starting HTTP/2.0 DELETE https://localhost:44368/api/Employee/11  
+2021-06-28 13:47:01.413 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Delete (EmployeeDetails)'
+2021-06-28 13:47:01.414 +05:30 [INF] Route matched with {action = "Delete", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(Int64) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:47:01.423 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:47:01.710 +05:30 [INF] Executed DbCommand (285ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:47:02.218 +05:30 [INF] Executed DbCommand (217ms) [Parameters=[@p0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Employee]
+WHERE [EmployeeId] = @p0;
+SELECT @@ROWCOUNT;
+2021-06-28 13:47:02.465 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:47:02.469 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Delete (EmployeeDetails) in 1052.8655ms
+2021-06-28 13:47:02.472 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Delete (EmployeeDetails)'
+2021-06-28 13:47:02.475 +05:30 [INF] Request finished in 1065.5842ms 200 text/plain; charset=utf-8
+2021-06-28 13:47:47.837 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 151
+2021-06-28 13:47:47.843 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:47:47.851 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:47:47.868 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:47:48.076 +05:30 [INF] Executed DbCommand (205ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:47:48.080 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:47:48.084 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 230.6142ms
+2021-06-28 13:47:48.088 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:47:48.093 +05:30 [INF] Request finished in 256.1075ms 500 text/plain; charset=utf-8
+2021-06-28 13:48:12.987 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 151
+2021-06-28 13:48:12.992 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:48:12.996 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:48:13.063 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:48:13.280 +05:30 [INF] Executed DbCommand (214ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:50:58.182 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 13:50:58.233 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 13:50:58.277 +05:30 [INF] Hosting environment: Development
+2021-06-28 13:50:58.281 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 13:50:58.373 +05:30 [INF] Request finished in 144.3621ms 200 text/html;charset=utf-8
+2021-06-28 13:50:58.584 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 13:50:58.731 +05:30 [INF] Request finished in 147.2023ms 200 application/json;charset=utf-8
+2021-06-28 13:51:36.920 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 151
+2021-06-28 13:51:36.942 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:51:36.985 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:51:37.989 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:51:39.918 +05:30 [INF] Executed DbCommand (245ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:51:39.964 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:51:39.971 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 2978.5832ms
+2021-06-28 13:51:39.973 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:51:39.978 +05:30 [INF] Request finished in 3059.117ms 500 text/plain; charset=utf-8
+2021-06-28 13:52:56.177 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 151
+2021-06-28 13:52:56.182 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:52:56.185 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:52:56.227 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:52:56.444 +05:30 [INF] Executed DbCommand (208ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:52:56.448 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:52:56.452 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 264.2663ms
+2021-06-28 13:52:56.455 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:52:56.458 +05:30 [INF] Request finished in 280.9652ms 500 text/plain; charset=utf-8
+2021-06-28 13:53:33.906 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 150
+2021-06-28 13:53:33.934 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:53:33.936 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:53:33.954 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:53:34.170 +05:30 [INF] Executed DbCommand (206ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:53:34.491 +05:30 [INF] Executed DbCommand (231ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 13:53:34.713 +05:30 [INF] Executed DbCommand (208ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 13:53:35.375 +05:30 [INF] Executed DbCommand (243ms) [Parameters=[@p5='?' (DbType = Int64), @p0='?' (DbType = Int64), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Employee] SET [DepartmentId] = @p0, [EmailId] = @p1, [FirstName] = @p2, [LastName] = @p3, [ManagerId] = @p4
+WHERE [EmployeeId] = @p5;
+SELECT @@ROWCOUNT;
+2021-06-28 13:53:35.643 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:53:35.649 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 1711.0754ms
+2021-06-28 13:53:35.652 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:53:35.657 +05:30 [INF] Request finished in 1751.9526ms 200 text/plain; charset=utf-8
+2021-06-28 13:53:57.871 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 147
+2021-06-28 13:53:57.873 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:53:57.875 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 13:53:57.885 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 13:53:58.095 +05:30 [INF] Executed DbCommand (207ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 13:53:58.313 +05:30 [INF] Executed DbCommand (206ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 13:53:58.317 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 13:53:58.322 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 443.9712ms
+2021-06-28 13:53:58.325 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 13:53:58.327 +05:30 [INF] Request finished in 456.4035ms 500 text/plain; charset=utf-8
+2021-06-28 15:37:32.240 +05:30 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'logger' of method 'Configure' on type 'EmployeeDetails.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-06-28 15:42:59.386 +05:30 [FTL] Application startup exception
+System.Exception: Could not resolve a service of type 'Serilog.ILogger' for the parameter 'logger' of method 'Configure' on type 'EmployeeDetails.Startup'.
+ ---> System.InvalidOperationException: No service for type 'Serilog.ILogger' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-06-28 15:50:02.331 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 15:50:02.373 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 15:50:02.412 +05:30 [INF] Hosting environment: Development
+2021-06-28 15:50:02.414 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 15:50:02.510 +05:30 [INF] Request finished in 140.8272ms 200 text/html;charset=utf-8
+2021-06-28 15:50:02.782 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 15:50:02.880 +05:30 [INF] Request finished in 98.2794ms 200 application/json;charset=utf-8
+2021-06-28 15:51:34.940 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 150
+2021-06-28 15:51:46.144 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 15:51:46.191 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 15:51:53.345 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 15:51:59.573 +05:30 [INF] Executed DbCommand (281ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 15:52:00.058 +05:30 [INF] Executed DbCommand (314ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 15:52:52.502 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 66302.851ms
+2021-06-28 15:52:52.548 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 15:53:13.171 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EmployeeDetails.ExceptionHandling.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails\ExceptionHandling\ExceptionMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-28 15:53:13.309 +05:30 [INF] Request finished in 98369.0738ms 500 text/plain
+2021-06-28 15:53:41.422 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 150
+2021-06-28 15:53:41.430 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 15:53:41.433 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 15:53:41.472 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 15:53:41.693 +05:30 [INF] Executed DbCommand (215ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 15:53:41.927 +05:30 [INF] Executed DbCommand (227ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 15:53:54.712 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 13275.6608ms
+2021-06-28 15:53:54.714 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 15:54:20.651 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EmployeeDetails.ExceptionHandling.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails\ExceptionHandling\ExceptionMiddleware.cs:line 30
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-06-28 15:54:20.654 +05:30 [INF] Request finished in 39231.851ms 500 text/plain
+2021-06-28 15:55:04.663 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 15:55:04.696 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 15:55:04.749 +05:30 [INF] Hosting environment: Development
+2021-06-28 15:55:04.750 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 15:55:04.857 +05:30 [INF] Request finished in 165.8748ms 200 text/html;charset=utf-8
+2021-06-28 15:55:05.112 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 15:55:05.214 +05:30 [INF] Request finished in 101.7661ms 200 application/json;charset=utf-8
+2021-06-28 15:55:36.514 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 148
+2021-06-28 15:55:36.551 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 15:55:36.597 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 15:55:37.599 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 15:55:39.569 +05:30 [INF] Executed DbCommand (226ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 15:55:39.905 +05:30 [INF] Executed DbCommand (228ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 15:55:54.157 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 17550.4148ms
+2021-06-28 15:55:54.159 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 15:56:34.392 +05:30 [INF] Request finished in 57879.0118ms 500 application/json
+2021-06-28 15:56:57.935 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 148
+2021-06-28 15:56:57.942 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 15:56:57.946 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 15:56:58.018 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 15:56:58.247 +05:30 [INF] Executed DbCommand (223ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 15:56:58.257 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 15:56:58.263 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 316.0079ms
+2021-06-28 15:56:58.266 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 15:56:58.269 +05:30 [INF] Request finished in 337.2097ms 500 text/plain; charset=utf-8
+2021-06-28 16:00:30.893 +05:30 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'EmployeeDetails.ExceptionHandling.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-06-28 16:02:49.587 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 16:02:49.637 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 16:02:49.676 +05:30 [INF] Hosting environment: Development
+2021-06-28 16:02:49.678 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 16:02:49.775 +05:30 [INF] Request finished in 141.2244ms 200 text/html;charset=utf-8
+2021-06-28 16:02:49.994 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 16:02:50.118 +05:30 [INF] Request finished in 118.4484ms 200 application/json;charset=utf-8
+2021-06-28 16:03:16.317 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 150
+2021-06-28 16:03:16.340 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 16:03:16.383 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 16:03:17.397 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 16:03:19.999 +05:30 [INF] Executed DbCommand (282ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 16:03:20.360 +05:30 [INF] Executed DbCommand (240ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 16:03:32.628 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 16237.9313ms
+2021-06-28 16:03:32.631 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 16:03:37.133 +05:30 [ERR] Something went wrong: Object reference not set to an instance of an object.
+2021-06-28 16:03:42.347 +05:30 [INF] Request finished in 26031.2622ms 500 application/json
+2021-06-28 16:05:47.714 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 16:05:47.749 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 16:05:47.792 +05:30 [INF] Hosting environment: Development
+2021-06-28 16:05:47.794 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 16:05:47.892 +05:30 [INF] Request finished in 146.5336ms 200 text/html;charset=utf-8
+2021-06-28 16:05:48.114 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 16:05:48.221 +05:30 [INF] Request finished in 108.21ms 200 application/json;charset=utf-8
+2021-06-28 16:06:37.199 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 150
+2021-06-28 16:06:37.222 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 16:06:37.264 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 16:06:38.266 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 16:06:40.233 +05:30 [INF] Executed DbCommand (249ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 16:06:40.573 +05:30 [INF] Executed DbCommand (224ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 16:06:59.510 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 22236.7582ms
+2021-06-28 16:06:59.513 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 16:07:03.169 +05:30 [ERR] Something went wrong: Object reference not set to an instance of an object.
+2021-06-28 16:07:04.738 +05:30 [ERR] Stack Trace:    at EmployeeDetails.Controllers.EmployeeController.Put(UpdateEmployeeDTO updateEmployeeDTO) in C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails\Controllers\EmployeeController.cs:line 144
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at EmployeeDetails.ExceptionHandling.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails\ExceptionHandling\ExceptionMiddleware.cs:line 27
+2021-06-28 16:07:08.055 +05:30 [INF] Request finished in 30856.5133ms 500 application/json
+2021-06-28 16:10:55.045 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 16:10:55.090 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 16:10:55.131 +05:30 [INF] Hosting environment: Development
+2021-06-28 16:10:55.133 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 16:10:55.233 +05:30 [INF] Request finished in 146.4555ms 200 text/html;charset=utf-8
+2021-06-28 16:10:55.537 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 16:10:55.649 +05:30 [INF] Request finished in 109.5738ms 200 application/json;charset=utf-8
+2021-06-28 16:11:12.033 +05:30 [INF] Request starting HTTP/2.0 PUT https://localhost:44368/api/Employee/UpdateEmployeeeDetails application/json-patch+json 151
+2021-06-28 16:11:12.047 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 16:11:12.093 +05:30 [INF] Route matched with {action = "Put", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(EmployeeDetails.Entities.DTO.UpdateEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 16:11:13.128 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 16:11:15.015 +05:30 [INF] Executed DbCommand (225ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 16:11:15.347 +05:30 [INF] Executed DbCommand (223ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 16:11:15.572 +05:30 [INF] Executed DbCommand (210ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 16:11:16.240 +05:30 [INF] Executed DbCommand (217ms) [Parameters=[@p5='?' (DbType = Int64), @p0='?' (DbType = Int64), @p1='?' (Size = 100), @p2='?' (Size = 100), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Employee] SET [DepartmentId] = @p0, [EmailId] = @p1, [FirstName] = @p2, [LastName] = @p3, [ManagerId] = @p4
+WHERE [EmployeeId] = @p5;
+SELECT @@ROWCOUNT;
+2021-06-28 16:11:27.763 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails) in 15663.4642ms
+2021-06-28 16:11:27.767 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.Put (EmployeeDetails)'
+2021-06-28 16:11:30.215 +05:30 [ERR] Something went wrong: Object reference not set to an instance of an object.
+2021-06-28 16:11:50.847 +05:30 [ERR] Stack Trace:    at EmployeeDetails.BusinessLayer.BusinessClasses.EmployeeBAL.UpdateEmployee(UpdateEmployeeDTO updateEmployeeDTO) in C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails.BusinessLayer\BusinessClasses\EmployeeBAL.cs:line 133
+   at EmployeeDetails.Controllers.EmployeeController.Put(UpdateEmployeeDTO updateEmployeeDTO) in C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails\Controllers\EmployeeController.cs:line 130
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at EmployeeDetails.ExceptionHandling.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails\ExceptionHandling\ExceptionMiddleware.cs:line 27
+2021-06-28 16:11:54.036 +05:30 [INF] Request finished in 42004.4679ms 500 application/json
+2021-06-28 21:25:53.464 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-28 21:25:53.756 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/index.html  
+2021-06-28 21:25:54.093 +05:30 [INF] Hosting environment: Development
+2021-06-28 21:25:54.096 +05:30 [INF] Content root path: C:\Users\avenkatraman1\source\repos\EmployeeDetails\EmployeeDetails
+2021-06-28 21:25:54.644 +05:30 [INF] Request finished in 890.7082ms 200 text/html;charset=utf-8
+2021-06-28 21:25:55.476 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/swagger/v1/swagger.json  
+2021-06-28 21:25:55.788 +05:30 [INF] Request finished in 311.3336ms 200 application/json;charset=utf-8
+2021-06-28 21:33:23.072 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Department/GetDepartmentList  
+2021-06-28 21:33:23.105 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.GetDepartmentList (EmployeeDetails)'
+2021-06-28 21:33:23.254 +05:30 [INF] Route matched with {action = "GetDepartmentList", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDepartmentList() on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-28 21:33:26.315 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:33:34.637 +05:30 [INF] Executed DbCommand (398ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+2021-06-28 21:33:34.707 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeDetails.Entities.DTO.DepartmentDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-06-28 21:33:35.546 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.GetDepartmentList (EmployeeDetails) in 12285.1142ms
+2021-06-28 21:33:35.585 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.GetDepartmentList (EmployeeDetails)'
+2021-06-28 21:33:35.616 +05:30 [INF] Request finished in 12543.9514ms 200 application/json; charset=utf-8
+2021-06-28 21:34:05.117 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department/AddDepartment application/json-patch+json 10
+2021-06-28 21:34:05.123 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.AddDepartment (EmployeeDetails)'
+2021-06-28 21:34:05.413 +05:30 [INF] Route matched with {action = "AddDepartment", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddDepartment(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-28 21:34:05.611 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:34:06.192 +05:30 [INF] Executed DbCommand (383ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 21:34:06.197 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 21:34:06.202 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.AddDepartment (EmployeeDetails) in 784.8921ms
+2021-06-28 21:34:06.209 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.AddDepartment (EmployeeDetails)'
+2021-06-28 21:34:06.216 +05:30 [INF] Request finished in 1100.2765ms 500 text/plain; charset=utf-8
+2021-06-28 21:34:19.004 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Department/AddDepartment application/json-patch+json 11
+2021-06-28 21:34:19.007 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.AddDepartment (EmployeeDetails)'
+2021-06-28 21:34:19.012 +05:30 [INF] Route matched with {action = "AddDepartment", controller = "Department"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddDepartment(System.String) on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-28 21:34:19.029 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:34:19.363 +05:30 [INF] Executed DbCommand (321ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 21:34:20.217 +05:30 [INF] Executed DbCommand (307ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Department] ([DepartmentName])
+VALUES (@p0);
+SELECT [DepartmentId]
+FROM [Department]
+WHERE @@ROWCOUNT = 1 AND [DepartmentId] = scope_identity();
+2021-06-28 21:34:20.576 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 21:34:20.579 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.AddDepartment (EmployeeDetails) in 1563.6849ms
+2021-06-28 21:34:20.582 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.AddDepartment (EmployeeDetails)'
+2021-06-28 21:34:20.586 +05:30 [INF] Request finished in 1582.5282ms 200 text/plain; charset=utf-8
+2021-06-28 21:34:30.225 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Department/GetDepartmentList  
+2021-06-28 21:34:30.229 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.DepartmentController.GetDepartmentList (EmployeeDetails)'
+2021-06-28 21:34:30.235 +05:30 [INF] Route matched with {action = "GetDepartmentList", controller = "Department"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDepartmentList() on controller EmployeeDetails.Controllers.DepartmentController (EmployeeDetails).
+2021-06-28 21:34:30.244 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:34:30.494 +05:30 [INF] Executed DbCommand (244ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DepartmentId], [d].[DepartmentName]
+FROM [Department] AS [d]
+2021-06-28 21:34:30.497 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeDetails.Entities.DTO.DepartmentDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-06-28 21:34:30.500 +05:30 [INF] Executed action EmployeeDetails.Controllers.DepartmentController.GetDepartmentList (EmployeeDetails) in 262.1053ms
+2021-06-28 21:34:30.502 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.DepartmentController.GetDepartmentList (EmployeeDetails)'
+2021-06-28 21:34:30.505 +05:30 [INF] Request finished in 279.1414ms 200 application/json; charset=utf-8
+2021-06-28 21:36:16.084 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee/GetEmployeeList  
+2021-06-28 21:36:16.095 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeList (EmployeeDetails)'
+2021-06-28 21:36:16.106 +05:30 [INF] Route matched with {action = "GetEmployeeList", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetEmployeeList() on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 21:36:16.138 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:36:16.474 +05:30 [INF] Executed DbCommand (258ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 21:36:16.506 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[EmployeeDetails.Entities.DTO.EmployeeDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-06-28 21:36:16.514 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.GetEmployeeList (EmployeeDetails) in 406.8207ms
+2021-06-28 21:36:16.517 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.GetEmployeeList (EmployeeDetails)'
+2021-06-28 21:36:16.519 +05:30 [INF] Request finished in 435.4147ms 200 application/json; charset=utf-8
+2021-06-28 21:36:53.577 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee/FilteredEmployeeList?EmployeeId=1111  
+2021-06-28 21:36:53.582 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails)'
+2021-06-28 21:36:53.609 +05:30 [INF] Route matched with {action = "FilteredEmployeeList", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult FilteredEmployeeList(EmployeeDetails.Entities.DTO.FilterEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 21:36:53.632 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:36:53.947 +05:30 [INF] Executed DbCommand (311ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 21:36:53.953 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[EmployeeDetails.Entities.DTO.EmployeeDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-06-28 21:36:53.958 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails) in 347.0483ms
+2021-06-28 21:36:53.965 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails)'
+2021-06-28 21:36:53.969 +05:30 [INF] Request finished in 391.6913ms 200 application/json; charset=utf-8
+2021-06-28 21:37:04.139 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee/FilteredEmployeeList?EmployeeId=1  
+2021-06-28 21:37:04.142 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails)'
+2021-06-28 21:37:04.144 +05:30 [INF] Route matched with {action = "FilteredEmployeeList", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult FilteredEmployeeList(EmployeeDetails.Entities.DTO.FilterEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 21:37:04.150 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:37:04.492 +05:30 [INF] Executed DbCommand (339ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 21:37:04.498 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[EmployeeDetails.Entities.DTO.EmployeeDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-06-28 21:37:04.502 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails) in 355.6978ms
+2021-06-28 21:37:04.508 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails)'
+2021-06-28 21:37:04.514 +05:30 [INF] Request finished in 374.6072ms 200 application/json; charset=utf-8
+2021-06-28 21:37:16.230 +05:30 [INF] Request starting HTTP/2.0 GET https://localhost:44368/api/Employee/FilteredEmployeeList?LastName=v  
+2021-06-28 21:37:16.233 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails)'
+2021-06-28 21:37:16.235 +05:30 [INF] Route matched with {action = "FilteredEmployeeList", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult FilteredEmployeeList(EmployeeDetails.Entities.DTO.FilterEmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 21:37:16.240 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:37:16.534 +05:30 [INF] Executed DbCommand (289ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 21:37:16.539 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Linq.OrderedEnumerable`2[[EmployeeDetails.Entities.DTO.EmployeeDTO, EmployeeDetails.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-06-28 21:37:16.542 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails) in 305.3624ms
+2021-06-28 21:37:16.545 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.FilteredEmployeeList (EmployeeDetails)'
+2021-06-28 21:37:16.549 +05:30 [INF] Request finished in 319.4ms 200 application/json; charset=utf-8
+2021-06-28 21:39:35.834 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 126
+2021-06-28 21:39:35.855 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 21:39:35.865 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 21:39:35.978 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-06-28 21:39:36.082 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 214.2021ms
+2021-06-28 21:39:36.089 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 21:39:36.096 +05:30 [INF] Request finished in 261.8693ms 400 application/problem+json; charset=utf-8
+2021-06-28 21:39:45.841 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 115
+2021-06-28 21:39:45.879 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 21:39:45.887 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 21:39:45.900 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-06-28 21:39:45.909 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 11.8743ms
+2021-06-28 21:39:45.915 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 21:39:45.924 +05:30 [INF] Request finished in 82.9712ms 400 application/problem+json; charset=utf-8
+2021-06-28 21:40:03.739 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 135
+2021-06-28 21:40:03.743 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 21:40:03.746 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 21:40:03.759 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:40:04.105 +05:30 [INF] Executed DbCommand (343ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 21:40:04.109 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 21:40:04.111 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 362.4613ms
+2021-06-28 21:40:04.114 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 21:40:04.118 +05:30 [INF] Request finished in 379.1267ms 500 text/plain; charset=utf-8
+2021-06-28 21:40:19.588 +05:30 [INF] Request starting HTTP/2.0 POST https://localhost:44368/api/Employee/AddEmployeeeDetails application/json-patch+json 138
+2021-06-28 21:40:19.591 +05:30 [INF] Executing endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 21:40:19.596 +05:30 [INF] Route matched with {action = "AddEmployeeeDetails", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddEmployeeeDetails(EmployeeDetails.Entities.DTO.EmployeeDTO) on controller EmployeeDetails.Controllers.EmployeeController (EmployeeDetails).
+2021-06-28 21:40:19.601 +05:30 [INF] Entity Framework Core 5.0.7 initialized 'EmployeeDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoTracking 
+2021-06-28 21:40:19.894 +05:30 [INF] Executed DbCommand (286ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DepartmentId], [e].[EmailId], [e].[FirstName], [e].[LastName], [e].[ManagerId], [d].[DepartmentId], [d].[DepartmentName]
+FROM [Employee] AS [e]
+INNER JOIN [Department] AS [d] ON [e].[DepartmentId] = [d].[DepartmentId]
+2021-06-28 21:40:20.216 +05:30 [INF] Executed DbCommand (293ms) [Parameters=[@__ToLower_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Department] AS [d]
+WHERE LOWER([d].[DepartmentName]) = @__ToLower_0
+2021-06-28 21:40:20.225 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2021-06-28 21:40:20.235 +05:30 [INF] Executed action EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails) in 636.5039ms
+2021-06-28 21:40:20.240 +05:30 [INF] Executed endpoint 'EmployeeDetails.Controllers.EmployeeController.AddEmployeeeDetails (EmployeeDetails)'
+2021-06-28 21:40:20.248 +05:30 [INF] Request finished in 660.0973ms 500 text/plain; charset=utf-8
